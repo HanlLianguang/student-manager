@@ -1,0 +1,24 @@
+{
+    "name": "lenovo/frome",
+    "type": "project",
+    "authors": [
+        {
+            "name": "hanlianguang",
+            "email": "1547006451@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app",
+            "core\\":"core",
+            "system\\":"system"
+        },
+        "files":[
+            "system/functions.php",
+            "core/config/database.php"
+        ]
+    }
+}
